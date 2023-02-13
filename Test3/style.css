@@ -1,0 +1,138 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #787A91;
+
+
+}
+
+.navigation {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    margin: .35rem 1rem;
+
+}
+
+.navigation a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.navigation img {
+    width: 70px;
+}
+
+.navigation-right {
+    float: right;
+    padding: .5rem 1rem;
+}
+
+.service {
+    width: 55%;
+    margin: 1rem auto;
+}
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin: .75rem .25rem;
+    padding: .5rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    background-color: rgba(128, 230, 255, 0.25)
+}
+
+div.scrollmenu a img {
+    width: 96px;
+}
+
+div.scrollmenu::-webkit-scrollbar {
+    display: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+.grid {
+    margin: .35rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid>article {
+    border-radius: .5rem;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.grid>article img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.text {
+    padding: 0 20px 20px;
+}
+
+.text>button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.grid>button {
+    grid-column: 1 / span 3;
+}
+
+.testi {
+    width: 55%;
+    margin: 1rem auto;
+}
+
+div.scrollmenu-testi {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu-testi div {
+    display: inline-block;
+    width: 20rem;
+    color: white;
+    text-align: center;
+    margin: .75rem .25rem;
+    padding: .5rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    background-color: rgba(128, 230, 255, 0.25);
+}
+
+div.scrollmenu-testi a img {
+    width: 216px;
+}
+
+div.scrollmenu-testi::-webkit-scrollbar {
+    display: none;
+}
+
+div.scrollmenu-testi a:hover {
+    background-color: #777;
+}
